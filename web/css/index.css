@@ -1,0 +1,161 @@
+/* Paste your Tailwind CSS classes and other styles here */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css");
+
+/* Additional custom styles */
+/* For example, you can define your own classes */
+/* .custom-header {
+     Your custom header styles...
+} */
+
+/* Add any other custom CSS rules here */
+/* .custom-class {
+     Your custom styles...
+} */
+
+
+
+
+
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./assets/img/back.svg');
+    background-size: cover;
+    background-position: center;
+    min-height: 75vh;
+    position: relative;
+    color: #fff;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+  }
+  
+  .header h1 {
+    text-align: center;
+    padding-top: 30%;
+  }
+  
+  /* Feature Section Styles */
+  .feature {
+    padding: 40px 0;
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto 10px;
+  }
+  
+  .red {
+    background: red;
+    color: #fff;
+  }
+  
+  /* Call to Action Section Styles */
+  .cta {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background: #555;
+  }
+  
+  /* Glance Section Styles */
+  .glance {
+    padding: 50px 0;
+    background: #f9f9f9;
+  }
+  
+  .glance ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .glance ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    padding: 40px 0;
+    background: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .social-buttons button {
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  .social-buttons button:hover {
+    color: #f4f4f4;
+  }
+  
+  /* Responsive Styles (responsive.css) */
+  @media (max-width: 768px) {
+    .header h1 {
+      padding-top: 20%;
+    }
+  
+    .feature-box {
+      margin: 10px 0;
+    }
+  }
+  
